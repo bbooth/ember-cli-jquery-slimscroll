@@ -4,6 +4,6 @@
 module.exports = {
   name: 'ember-cli-jquery-slimscroll',
   included: function (app) {
-    app.import(app.bowerDirectory + "/jquery-slimscroll/jquery-slimscroll.js");
+    app.import(app.bowerDirectory + "/jquery-slimscroll/jquery.slimscroll.js");
   }
 };
